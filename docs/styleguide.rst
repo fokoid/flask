@@ -132,7 +132,7 @@ Naming Conventions
 Protected members are prefixed with a single underscore.  Double
 underscores are reserved for mixin classes.
 
-On classes with keywords, trailing underscores are appended.  Clashes with
+On clashes with keywords, trailing underscores are appended.  Clashes with
 builtins are allowed and **must not** be resolved by appending an
 underline to the variable name.  If the function needs to access a
 shadowed builtin, rebind the builtin to a different name instead.
